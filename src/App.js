@@ -51,6 +51,7 @@ function App() {
           CHECK
         </Button>
       </form>
+     
 
       {error && (
         <Typography color="error" gutterBottom>
@@ -83,6 +84,9 @@ function App() {
           </CardContent>
         </Card>
       )}
+       <footer style={{display:"flex", alignItems:"center",justifyContent:"center", marginTop:"5rem"}}>
+        © 2024 TechSkils Learning Institute. All right Reserved.
+      </footer>
     </div> 
     </>
   );
