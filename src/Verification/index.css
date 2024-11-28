@@ -1,0 +1,91 @@
+.verification{
+    background: url("../../public/image/Back.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 200vh;
+    padding-top: 20%;
+    padding-right: 50px;
+    
+}
+.verification .row{
+    padding: 50px;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+
+    hr{
+        width: 245px;
+        margin-top: -1rem;
+        color: gray;
+    }
+}
+.verification .row h1{
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    gap: 1rem;
+    font-weight: 100;
+
+    img{
+        width: 80px;
+    }
+   
+}
+.verification .row p{
+    color: #D1232A;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+}
+.souverification{
+    margin-top: 35%;
+}
+
+
+@media all and (max-width: 768px) {
+    .verification{
+        background-position: center;
+        margin-top: 1%;
+        height: 100vh;
+    }
+    .verification .row{
+        position: absolute;
+        width: 100%;
+        right: 40px;
+        top: 30%;
+    
+     hr{
+        width: 350px;
+     }
+    }
+    .verification .row h1{
+        color: black;
+        display: flex;
+        gap: 10px;
+        font-size: 60px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 100;
+    
+        img{
+            width: 150px;
+        }
+       
+    }
+    .verification .row p{
+        color: #D1232A;
+        font-size: 18.5px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 20px;
+    }
+    .souverification{
+        margin-top: 100%;
+    }
+}

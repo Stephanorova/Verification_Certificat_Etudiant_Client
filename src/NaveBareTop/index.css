@@ -1,0 +1,27 @@
+.header{
+    margin: 0;
+    position: relative;
+    height: 30px;
+    display: flex;
+    background-color: #555;
+}
+
+.left{
+    flex: 2;
+    background-color: #555;
+}
+
+.right{
+    flex: 1.45;
+    background-color: #313236;
+    clip-path: polygon(100% 0, 100% 0, 100% 100%,0 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.groupText{
+    color: #838383;
+    cursor: pointer;
+}
+
+
