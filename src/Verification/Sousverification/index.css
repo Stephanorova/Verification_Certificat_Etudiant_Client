@@ -17,7 +17,7 @@
 
     h1{
         font-size: 25px;
-        color: #D1232A;
+        color: brown;
     }
 }
 .cadre{
@@ -38,6 +38,16 @@
 
 }
 
+.Slogan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+.Slogan img{
+    width: 70px;
+}
 
 @media all and (max-width: 768px) {
     .verifie{
@@ -52,16 +62,14 @@
         }
     }
     .titrehaute{
-        display: flex;
-        justify-content:center;
-        margin-top: 10%;
+        margin-top: 14%;
 
         span{
           display: none;
         }
         h1{
             font-size: 15px;
-            color: #D1232A;
+            color: brown;
         }
     }
     .cadre{
@@ -80,6 +88,13 @@
             }
         }
     
+    }
+   
+    .Slogan{
+       display: none;
+    }
+    .Slogan img{
+        width: 50px;
     }
     footer{
         display: none;

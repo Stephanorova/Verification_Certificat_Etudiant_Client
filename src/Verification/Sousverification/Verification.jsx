@@ -80,9 +80,9 @@ const Verification = () => {
         </Card>
     )}
     </div> 
-      <footer style={{display:"flex", marginLeft:"3rem", alignItems:"center",justifyContent:"center", marginTop:"5rem"}}>
-        © 2024 TechSkils Learning Institute. All right Reserved.
-        <img src='/VerificationCertificat/image/certificat.png' alt='' width='100px' />
+      <footer className='Slogan'>
+        © 2024 TechSkils Learning Institute. All right Reserved
+        <img src='/VerificationCertificat/image/certificat.png' alt=''  />
       </footer>
     </div>
     

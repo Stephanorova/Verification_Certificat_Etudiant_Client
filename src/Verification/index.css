@@ -50,32 +50,33 @@
 }
 
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 768px) {        
+    
     .verification{
         background-position: center;
         margin-top: 1%;
-        height: 100vh;
+        height: 110vh;
     }
     .verification .row{
         position: absolute;
         width: 100%;
         right: 40px;
-        top: 30%;
+        top: 35%;
     
      hr{
-        width: 350px;
+        width: 180px;
      }
     }
     .verification .row h1{
         color: black;
         display: flex;
         gap: 10px;
-        font-size: 60px;
+        font-size: 30px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-weight: 100;
     
         img{
-            width: 150px;
+            width: 80px;
         }
        
     }

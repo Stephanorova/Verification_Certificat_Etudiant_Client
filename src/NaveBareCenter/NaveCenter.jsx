@@ -18,7 +18,7 @@ const Navbar = () => {
           </div>
           <div className='topBarRight'>
             <div className='socialIcons'>
-             <span><Phone size={20} /> <p>+261 38 46  503 32 /</p> <p>+261 38 38 734 53</p></span>
+             <span><Phone size={18} /> <p>+261 38 46  503 32 </p> / <p>+261 38 38 734 53</p></span>
               <a href='https://web.facebook.com'><Facebook size={20} /></a>
               <a href='https://email.com/'><Mail size={20} /></a>
             </div>

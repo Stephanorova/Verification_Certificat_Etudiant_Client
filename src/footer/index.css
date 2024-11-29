@@ -28,7 +28,7 @@
     font-size: 18px;
     padding: 30px;
     gap: 0.5rem;
-    color: #D1232A;
+    color: brown;
 }
 .graounde{
      width: 80px;
@@ -131,76 +131,35 @@
 }
 
 @media all and (max-width: 768px) {
-    .footerRigth{
-        display: none;
+    .footerTitre{
+        width: 100%;
+        height:auto;
+        background-color: #fff;
+        border-radius: 16px  16px 0 0;
+        position: absolute;
+        margin-top: 50px;
+        left: 0;
     }
-    .footerLeft h1{
-        display: flex;
-        align-items: center;
-        font-size: 18px;
-        padding: 30px;
-        gap: 0.5rem;
-        color: #D1232A;
-    }
-    .graounde{
-         width: 80px;
-         height: 80px;
-         background-color: #E5E5E5;
-         border-radius: 50%;
-         display: flex;
-         align-items: center;
-         justify-content: center;
-    }
-    .footerLeft h1 .graounde img{
-        width: 70px;
-    }
-    
-    .footerLeft span{
+    .radiuse{
         display: flex;
         flex-direction: column;
-        margin-left: 35px;
-        margin-top: -2px;
-        font-size: 13px;
-        color: rgb(96, 96, 96);
+        padding: 10px;
+        margin: 0 5px;
     }
-    
-    
-    .emailput{
-        width: 300px;
-        height: 45px;
+    .footerRigth{
+        flex: 1;
         display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-left: 35px;
-        border-radius: 10px;
-        gap: 1rem;
-        border: 1px solid  #E5E5E5;
-        margin-top: 15px;
-        input{
-            width: 200px;
-            height: 40px;
-            border-radius: 10px;
-            padding-left: 10px;
-            border: none;
-            outline: none;
-            color: rgb(96, 96, 96);
-        }
-        span{
-            width: 40px;
-            height: 40px;
-            align-items: center;
-            justify-content: center;
-            background-color: black;
-            border-radius: 50%;
-            cursor: pointer;
-        }
-        i{
-            color: #fff;
-        }
+        padding: 10px;
+        gap: 2rem;
+        margin-top: 20px;
+        justify-content: space-around;
     }
-    .footerTitre hr{
-        display: none;
-    }
+  .footerTitre hr{
+    display: none;
+  }
+   .techskills{
+    display: none;
+   }
    
     
 }

@@ -155,56 +155,25 @@
 
 
   @media all and (max-width: 768px) {
-    .nav {
-      background-color: #313236;
-      color: white;
-      font-family: Arial, sans-serif;
-      width: 100%;
-      display: flex;
-      margin: 0 auto;
-
-    }
-    .topBar {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      border-bottom: 1px solid #444;
-    
-    }
-    .groupText img{
-      font-size: 14px;
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-    }
-    .validateText img{
-          width: 30px;
-    }
-   
-    .socialIcons{
-    display: none;
-    }
-  
-    .socialIcons span p:nth-child(2){
+    .validateText p{
       display: none;
     }
-    .safetyButton{
-      width: auto;
-      height: 35px;
-      background-color:  #939598 ;
+    .socialIcons span{
       display: flex;
       align-items: center;
       justify-content: center;
-      border-radius: 10px;
-      color: rgb(25, 24, 24);
+      gap: 2px;
+      margin-top: 5px;
+      margin-right: 1px;
+      color: white;
       font-weight: bold;
-      font-size: 12px;
-      display: flex;
-      position: relative;
+      font-size: 10px;
     }
-    .mainBar {
-      margin: 0 auto;
-      width: 100%;
+    .safetyButton{
+      display: none;
+    }
+    .socialIcons a{
+      display: none;
     }
     .brandName {
       display: none;
