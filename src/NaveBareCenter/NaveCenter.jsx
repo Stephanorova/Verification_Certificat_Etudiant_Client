@@ -6,15 +6,15 @@ import { useHistory } from 'react-router-dom';
 
 const Navbar = () => {
   const [click,setClick]=useState(false)
-  const history = useHistory()
+
    
   return (
     <nav className='nav'>
       <div className='container'>
         <div className='topBar'>
           <div className='logo'>
-            <span className='groupText'><img src="VerificationCertificat/image/Logo.png" alt="" /></span>
-            <span className='validateText'><img src="VerificationCertificat/image/suivre.png" alt="" /><p>VALIDATE A STUDENTS</p></span>
+            <span className='groupText'><img src="/VerificationCertificat/image/Logo.png" alt="" /></span>
+            <span className='validateText'><img src="/VerificationCertificat/image/suivre.png" alt="" /><p>VALIDATE A STUDENTS</p></span>
           </div>
           <div className='topBarRight'>
             <div className='socialIcons'>

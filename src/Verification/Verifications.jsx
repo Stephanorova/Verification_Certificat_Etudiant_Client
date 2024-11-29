@@ -6,7 +6,7 @@ const Verifications = () => {
     <>
     <div className='verification'>
         <div className="row">
-            <h1><i>Verification</i><img src="VerificationCertificat/image/suivre.png" alt="" /></h1>
+            <h1><i>Verification</i><img src="/VerificationCertificat/image/suivre.png" alt="" /></h1>
             <hr />
             <p>Students</p>
         </div>

@@ -19,7 +19,7 @@ function App() {
            <NaveCenter/>
            <NaveBareTop/>
            <Switch>
-             <Route path = "/" exact component = {Verifications}/>
+             <Route path = "/VerificationCertificat" exact component = {Verifications}/>
            </Switch>
            <Footer/>
       </BrowserRouter>

@@ -8,7 +8,7 @@ const Footer = () => {
               <div className="footerLeft">
                 <h1>
                   <div className="graounde">
-                  <img src="VerificationCertificat/image/log.png" alt="" />
+                  <img src="/VerificationCertificat/image/log.png" alt="" />
                   </div>
                   TechSkills Learning Institute
                   </h1>
