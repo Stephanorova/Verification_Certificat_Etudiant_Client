@@ -56,25 +56,25 @@ const Verification = () => {
 
       {certificat  && (
         <Card>
-          <CardHeader title="Please ensure that the details on the printed certificate the verified detail below :" />
+          <CardHeader title="Please ensure that the details on the printed certificate match the verified details below:" />
           <CardContent>
             <Typography variant="body1" gutterBottom>
-              <strong>Student's first and last name:</strong>{certificat.NomEtPrenomEtudient}
+              <strong>Student's first and last name:  </strong>{certificat.NomEtPrenomEtudient}
             </Typography>
             <Typography variant="body1" gutterBottom>
-              <strong>Training date:</strong> {certificat.DateFormation}
+              <strong>Training date:  </strong> {certificat.DateFormation}
             </Typography>
             <Typography variant="body1" gutterBottom>
-              <strong>Certificate Number:</strong> {certificat.Ref}
+              <strong>Certificate Number:  </strong> {certificat.Ref}
             </Typography>
             <Typography variant="body1" gutterBottom>
-              <strong>Student Number:</strong> {certificat.Num}
+              <strong>Student Number:  </strong> {certificat.Num}
             </Typography>
             <Typography variant="body1" gutterBottom>
-              <strong>Training Name:</strong> {certificat.Formation}
+              <strong>Training Name:  </strong> {certificat.Formation}
             </Typography>
             <Typography variant="body1" gutterBottom>
-              <strong>Company Name:</strong> {certificat.Societe}
+              <strong>Company Name:  </strong> {certificat.Societe}
             </Typography>
           </CardContent>
         </Card>

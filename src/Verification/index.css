@@ -1,5 +1,5 @@
 .verification{
-    background: url("../../public/image/Back.jpg");
+    background: url("../../public/image/back.jpg");
     background-size: cover;
     background-attachment: fixed;
     position: absolute;
@@ -39,8 +39,8 @@
    
 }
 .verification .row p{
-    color: #D1232A;
-    font-size: 20px;
+    color: rgb(23, 23, 23);
+    font-size: 30px;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 20px;
